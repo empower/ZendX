@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>ZendX</name>
+ <channel>pear.php.net</channel>
+ <summary>Zend Framework Xtras</summary>
+ <description>This is a set of libraries outside of ZendFramework, in the ZendX namespace.  Includes ZendX_JQuery</description>
+ <lead>
+  <name>Bill Shupp</name>
+  <user>shupp</user>
+  <email>shupp@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-09-15</date>
+ <time>15:41:30</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+* Initial release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <dir name="documentation">
+    <dir name="manual">
+     <dir name="en">
+      <dir name="module_specs">
+       <file name="ZendX_Console_Process_Unix.xml" role="doc" />
+       <file name="ZendX_JQuery-Form.xml" role="doc" />
+       <file name="ZendX_JQuery-View-Helpers.xml" role="doc" />
+       <file name="ZendX_JQuery-View-JQuery.xml" role="doc" />
+       <file name="ZendX_JQuery-View.xml" role="doc" />
+       <file name="ZendX_JQuery.xml" role="doc" />
+      </dir> <!-- /documentation/manual/en/module_specs -->
+      <file name="configure.in" role="doc" />
+      <file name="html.xsl.in" role="doc" />
+      <file name="Makefile.in" role="doc" />
+      <file name="manual-lint.xml.in" role="doc" />
+      <file name="manual.xml.in" role="doc" />
+      <file name="README" role="doc" />
+      <file name="xinclude.mod" role="doc" />
+     </dir> <!-- /documentation/manual/en -->
+    </dir> <!-- /documentation/manual -->
+   </dir> <!-- /documentation -->
+   <dir name="tests">
+    <dir name="ZendX">
+     <dir name="Application">
+      <dir name="Resource">
+       <file name="AllTests.php" role="test" />
+       <file name="JqueryTest.php" role="test" />
+      </dir> <!-- /tests/ZendX/Application/Resource -->
+      <file name="AllTests.php" role="test" />
+     </dir> <!-- /tests/ZendX/Application -->
+     <dir name="Console">
+      <dir name="Process">
+       <file name="AllTests.php" role="test" />
+       <file name="UnixTest.php" role="test" />
+      </dir> <!-- /tests/ZendX/Console/Process -->
+      <file name="AllTests.php" role="test" />
+     </dir> <!-- /tests/ZendX/Console -->
+     <dir name="Db">
+      <dir name="Adapter">
+       <file name="FirebirdTest.php" role="test" />
+       <file name="SkipTests.php" role="test" />
+      </dir> <!-- /tests/ZendX/Db/Adapter -->
+      <dir name="Profiler">
+       <file name="FirebirdTest.php" role="test" />
+      </dir> <!-- /tests/ZendX/Db/Profiler -->
+      <dir name="Select">
+       <file name="FirebirdTest.php" role="test" />
+      </dir> <!-- /tests/ZendX/Db/Select -->
+      <dir name="Statement">
+       <file name="FirebirdTest.php" role="test" />
+      </dir> <!-- /tests/ZendX/Db/Statement -->
+      <dir name="Table">
+       <dir name="Relationships">
+        <file name="FirebirdTest.php" role="test" />
+       </dir> <!-- /tests/ZendX/Db/Table/Relationships -->
+       <dir name="Row">
+        <file name="FirebirdTest.php" role="test" />
+       </dir> <!-- /tests/ZendX/Db/Table/Row -->
+       <dir name="Rowset">
+        <file name="FirebirdTest.php" role="test" />
+       </dir> <!-- /tests/ZendX/Db/Table/Rowset -->
+       <dir name="Select">
+        <file name="FirebirdTest.php" role="test" />
+       </dir> <!-- /tests/ZendX/Db/Table/Select -->
+       <file name="FirebirdTest.php" role="test" />
+       <file name="TestSetup.php" role="test" />
+      </dir> <!-- /tests/ZendX/Db/Table -->
+      <dir name="TestUtil">
+       <file name="Firebird.php" role="test" />
+      </dir> <!-- /tests/ZendX/Db/TestUtil -->
+      <file name="AllTests.php" role="test" />
+      <file name="SkipTests.php" role="test" />
+      <file name="TestSetup.php" role="test" />
+     </dir> <!-- /tests/ZendX/Db -->
+     <dir name="JQuery">
+      <dir name="Form">
+       <file name="AllTests.php" role="test" />
+       <file name="DecoratorTest.php" role="test" />
+       <file name="ElementTest.php" role="test" />
+      </dir> <!-- /tests/ZendX/JQuery/Form -->
+      <dir name="View">
+       <file name="AccordionContainerTest.php" role="test" />
+       <file name="AjaxLinkTest.php" role="test" />
+       <file name="AllTests.php" role="test" />
+       <file name="AutoCompleteTest.php" role="test" />
+       <file name="ColorPickerTest.php" role="test" />
+       <file name="DatePickerTest.php" role="test" />
+       <file name="DialogContainerTest.php" role="test" />
+       <file name="jQueryTest.php" role="test" />
+       <file name="jQueryTestCase.php" role="test" />
+       <file name="SliderTest.php" role="test" />
+       <file name="SpinnerTest.php" role="test" />
+       <file name="TabContainerTest.php" role="test" />
+      </dir> <!-- /tests/ZendX/JQuery/View -->
+      <file name="AllTests.php" role="test" />
+      <file name="AutoCompleteActionHelperTest.php" role="test" />
+      <file name="JQueryTest.php" role="test" />
+     </dir> <!-- /tests/ZendX/JQuery -->
+     <file name="AllTests.php" role="test" />
+    </dir> <!-- /tests/ZendX -->
+    <file name="AllTests.php" role="test" />
+    <file name="TestConfiguration.php.dist" role="test" />
+    <file name="TestHelper.php" role="test" />
+   </dir> <!-- /tests -->
+   <dir name="ZendX">
+    <dir name="Application">
+     <dir name="Resource">
+      <file name="Jquery.php" role="php" />
+     </dir> <!-- /ZendX/Application/Resource -->
+    </dir> <!-- /ZendX/Application -->
+    <dir name="Console">
+     <dir name="Process">
+      <file name="Exception.php" role="php" />
+      <file name="Unix.php" role="php" />
+     </dir> <!-- /ZendX/Console/Process -->
+     <file name="Exception.php" role="php" />
+    </dir> <!-- /ZendX/Console -->
+    <dir name="Db">
+     <dir name="Adapter">
+      <dir name="Firebird">
+       <file name="Exception.php" role="php" />
+      </dir> <!-- /ZendX/Db/Adapter/Firebird -->
+      <file name="Firebird.php" role="php" />
+     </dir> <!-- /ZendX/Db/Adapter -->
+     <dir name="Statement">
+      <dir name="Firebird">
+       <file name="Exception.php" role="php" />
+      </dir> <!-- /ZendX/Db/Statement/Firebird -->
+      <file name="Firebird.php" role="php" />
+     </dir> <!-- /ZendX/Db/Statement -->
+    </dir> <!-- /ZendX/Db -->
+    <dir name="JQuery">
+     <dir name="Controller">
+      <dir name="Action">
+       <dir name="Helper">
+        <file name="AutoComplete.php" role="php" />
+       </dir> <!-- /ZendX/JQuery/Controller/Action/Helper -->
+      </dir> <!-- /ZendX/JQuery/Controller/Action -->
+     </dir> <!-- /ZendX/JQuery/Controller -->
+     <dir name="Form">
+      <dir name="Decorator">
+       <file name="AccordionContainer.php" role="php" />
+       <file name="AccordionPane.php" role="php" />
+       <file name="DialogContainer.php" role="php" />
+       <file name="TabContainer.php" role="php" />
+       <file name="TabPane.php" role="php" />
+       <file name="UiWidgetContainer.php" role="php" />
+       <file name="UiWidgetElement.php" role="php" />
+       <file name="UiWidgetElementMarker.php" role="php" />
+       <file name="UiWidgetPane.php" role="php" />
+      </dir> <!-- /ZendX/JQuery/Form/Decorator -->
+      <dir name="Element">
+       <file name="AutoComplete.php" role="php" />
+       <file name="ColorPicker.php" role="php" />
+       <file name="DatePicker.php" role="php" />
+       <file name="Slider.php" role="php" />
+       <file name="Spinner.php" role="php" />
+       <file name="UiWidget.php" role="php" />
+      </dir> <!-- /ZendX/JQuery/Form/Element -->
+      <file name="Exception.php" role="php" />
+     </dir> <!-- /ZendX/JQuery/Form -->
+     <dir name="View">
+      <dir name="Helper">
+       <dir name="JQuery">
+        <file name="Container.php" role="php" />
+       </dir> <!-- /ZendX/JQuery/View/Helper/JQuery -->
+       <file name="AccordionContainer.php" role="php" />
+       <file name="AccordionPane.php" role="php" />
+       <file name="AjaxLink.php" role="php" />
+       <file name="AutoComplete.php" role="php" />
+       <file name="ColorPicker.php" role="php" />
+       <file name="DatePicker.php" role="php" />
+       <file name="DialogContainer.php" role="php" />
+       <file name="JQuery.php" role="php" />
+       <file name="Slider.php" role="php" />
+       <file name="Spinner.php" role="php" />
+       <file name="TabContainer.php" role="php" />
+       <file name="TabPane.php" role="php" />
+       <file name="UiWidget.php" role="php" />
+       <file name="UiWidgetPane.php" role="php" />
+      </dir> <!-- /ZendX/JQuery/View/Helper -->
+      <file name="Exception.php" role="php" />
+     </dir> <!-- /ZendX/JQuery/View -->
+     <file name="Exception.php" role="php" />
+     <file name="Form.php" role="php" />
+    </dir> <!-- /ZendX/JQuery -->
+    <file name="Exception.php" role="php" />
+    <file name="JQuery.php" role="php" />
+   </dir> <!-- /ZendX -->
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+   <package>
+    <name>Zend</name>
+    <channel>zend.googlecode.com/svn</channel>
+    <min>1.10.7</min>
+   </package>
+   <extension>
+    <name>date</name>
+   </extension>
+   <extension>
+    <name>pcre</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-09-15</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Initial release
+   </notes>
+  </release>
+ </changelog>
+</package>
