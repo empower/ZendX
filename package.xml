@@ -4,7 +4,7 @@
     http://pear.php.net/dtd/package-2.0
     http://pear.php.net/dtd/package-2.0.xsd">
  <name>ZendX</name>
- <channel>pear.php.net</channel>
+ <channel>empower.github.com/pirum</channel>
  <summary>Zend Framework Xtras</summary>
  <description>This is a set of libraries outside of ZendFramework, in the ZendX namespace.  Includes ZendX_JQuery</description>
  <lead>
@@ -13,11 +13,11 @@
   <email>shupp@php.net</email>
   <active>yes</active>
  </lead>
- <date>2010-09-15</date>
- <time>15:41:30</time>
+ <date>2011-02-27</date>
+ <time>14:12:36</time>
  <version>
-  <release>0.1.0</release>
-  <api>0.1.0</api>
+  <release>0.2.0</release>
+  <api>0.2.0</api>
  </version>
  <stability>
   <release>alpha</release>
@@ -25,7 +25,7 @@
  </stability>
  <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
  <notes>
-* Initial release
+* Initial channel release
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -231,7 +231,7 @@
    <package>
     <name>Zend</name>
     <channel>zend.googlecode.com/svn</channel>
-    <min>1.10.7</min>
+    <min>1.11.0</min>
    </package>
    <extension>
     <name>date</name>
@@ -256,6 +256,21 @@
    <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
    <notes>
 * Initial release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-02-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Initial channel release
    </notes>
   </release>
  </changelog>

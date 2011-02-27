@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(E_ALL & ~E_DEPRECATED);
+
 require_once('PEAR/PackageFileManager2.php');
 
 PEAR::setErrorHandling(PEAR_ERROR_DIE);
@@ -11,7 +13,7 @@ $packagexml->setOptions(array(
     'simpleoutput'      => true,
     'packagedirectory'  => './',
     'filelistgenerator' => 'file',
-    'ignore'            => array('runTests.php', 'generatePackage.php'),
+    'ignore'            => array('generatePackage.php'),
     'dir_roles' => array(
         'tests'         => 'test',
         'documentation' => 'doc'
@@ -25,15 +27,15 @@ $packagexml->setDescription(
     . 'namespace.  Includes ZendX_JQuery'
 );
 
-$packagexml->setChannel('pear.php.net');
-$packagexml->setAPIVersion('0.1.0');
-$packagexml->setReleaseVersion('0.1.0');
+$packagexml->setChannel('empower.github.com/pirum');
+$packagexml->setAPIVersion('0.2.0');
+$packagexml->setReleaseVersion('0.2.0');
 
 $packagexml->setReleaseStability('alpha');
 
 $packagexml->setAPIStability('alpha');
 
-$packagexml->setNotes('* Initial release');
+$packagexml->setNotes('* Initial channel release');
 $packagexml->setPackageType('php');
 $packagexml->addRelease();
 
@@ -49,7 +51,7 @@ $packagexml->setLicense('New BSD License',
 
 $packagexml->setPhpDep('5.1.2');
 $packagexml->setPearinstallerDep('1.4.0b1');
-$packagexml->addPackageDepWithChannel('required', 'Zend', 'zend.googlecode.com/svn', '1.10.7');
+$packagexml->addPackageDepWithChannel('required', 'Zend', 'zend.googlecode.com/svn', '1.11.0');
 $packagexml->addExtensionDep('required', 'date');
 $packagexml->addExtensionDep('required', 'pcre');
 
