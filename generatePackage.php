@@ -28,14 +28,14 @@ $packagexml->setDescription(
 );
 
 $packagexml->setChannel('empower.github.com/pirum');
-$packagexml->setAPIVersion('0.2.0');
-$packagexml->setReleaseVersion('0.2.0');
+$packagexml->setAPIVersion('0.2.1');
+$packagexml->setReleaseVersion('0.2.1');
 
 $packagexml->setReleaseStability('alpha');
 
 $packagexml->setAPIStability('alpha');
 
-$packagexml->setNotes('* Initial channel release');
+$packagexml->setNotes('* Updated ZF channel and dependency');
 $packagexml->setPackageType('php');
 $packagexml->addRelease();
 
@@ -51,7 +51,7 @@ $packagexml->setLicense('New BSD License',
 
 $packagexml->setPhpDep('5.1.2');
 $packagexml->setPearinstallerDep('1.4.0b1');
-$packagexml->addPackageDepWithChannel('required', 'Zend', 'zend.googlecode.com/svn', '1.11.0');
+$packagexml->addPackageDepWithChannel('required', 'Zend', 'pear.zfcampus.org', '1.11.9');
 $packagexml->addExtensionDep('required', 'date');
 $packagexml->addExtensionDep('required', 'pcre');
 
