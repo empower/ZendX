@@ -13,11 +13,11 @@
   <email>shupp@php.net</email>
   <active>yes</active>
  </lead>
- <date>2011-08-29</date>
- <time>10:19:40</time>
+ <date>2011-10-27</date>
+ <time>11:37:42</time>
  <version>
-  <release>0.2.2</release>
-  <api>0.2.2</api>
+  <release>0.2.3</release>
+  <api>0.2.3</api>
  </version>
  <stability>
   <release>alpha</release>
@@ -25,7 +25,7 @@
  </stability>
  <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
  <notes>
-* Fixed ZF channel and dependency
+* Updated ZF channel and dependency
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -229,9 +229,9 @@
     <min>1.4.0b1</min>
    </pearinstaller>
    <package>
-    <name>zf</name>
-    <channel>pear.zfcampus.org</channel>
-    <min>1.11.10</min>
+    <name>Zend</name>
+    <channel>empower.github.com/pirum</channel>
+    <min>1.11.11</min>
    </package>
    <extension>
     <name>date</name>
@@ -301,6 +301,21 @@
    <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
    <notes>
 * Fixed ZF channel and dependency
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.3</release>
+    <api>0.2.3</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-10-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Updated ZF channel and dependency
    </notes>
   </release>
  </changelog>
